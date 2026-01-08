@@ -14,7 +14,7 @@ res.addEventListener("click", function(){
     countEL.innerText = 0;
 })
 rad.addEventListener("click", function(){
-    countEL.innerText = parseInt(Math.random() * 1000);
+    countEL.innerText = parseInt(Math.random() * 100);
 })
 heh.addEventListener("click", function(){
     countEL.innerText = 67;
